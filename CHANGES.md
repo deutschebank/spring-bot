@@ -258,8 +258,7 @@ Major release of chat workflow.  Most interfaces for this changed.  See migratio
  - Update to Java 17
  - Migrate to Spring Boot 3
 
-
-# November 13 2025
+# December 11 2024
  - #408 Handle exceptions in Teams 
  - #409 Return conversation IDs in Teams
  - #416 Single Method Invoke on Multiple Chat Button
