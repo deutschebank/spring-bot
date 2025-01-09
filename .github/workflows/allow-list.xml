@@ -51,125 +51,14 @@
         ]]></notes>
 		<cve>CVE-2023-20863</cve>
 	</suppress>
-
-	<suppress>
-		<notes>
-			These are added in the conversion from spring2 to spring3.
-		</notes>
-		<cve>CVE-2023-36052</cve>
-	</suppress>
-
-	<suppress>
-		<notes>
-			An issue was discovered in Bouncy Castle Java Cryptography APIs
-			before 1.78. An Ed25519 verification code infinite loop can occur via
-			a crafted signature and public key.
-			
-			We don't use that.
-		</notes>
-		<cve>CVE-2024-30172</cve>
-	</suppress>
-	<suppress>
-		<notes>
-		</notes>
-
-		<cve>CVE-2024-30171</cve>
-	</suppress>
-
-
-	<suppress>
-		<notes>
-		</notes>
-		<cve>CVE-2024-29857</cve>
-	</suppress>
-
-	<suppress>
-		<notes>
-		</notes>
-		<cve>CVE-2024-34447</cve>
-	</suppress>
-
-	<suppress>
-		<notes>
-		</notes>
-		<cve>CVE-2024-35255</cve>
-	</suppress>
-
-	<suppress>
-		<notes>
-		</notes>
-		<cve>CVE-2023-1370</cve>
-	</suppress>
-
-	<suppress>
-		<notes>
-		</notes>
-		<cve>CVE-2023-52428</cve>
-	</suppress>
-
-	<suppress>
-		<notes>
-		</notes>
-		<cve>CVE-2010-0538</cve>
-	</suppress>
-
-	<suppress>
-		<notes>
-		</notes>
-		<cve>CVE-2021-3869</cve>
-	</suppress>
-
-	<suppress>
-		<notes>
-		</notes>
-		<cve>CVE-2022-0198</cve>
-	</suppress>
-
-	<suppress>
-		<notes>
-		</notes>
-		<cve>CVE-2017-10355</cve>
-	</suppress>
-
-	<suppress>
-		<notes>
-		</notes>
-		<cve>CVE-2020-10146</cve>
-	</suppress>
-
-	<suppress>
-		<notes>
-		</notes>
-		<cve>CVE-2024-38820</cve>
-	</suppress>
-
-	<suppress>
-		<notes>
-		</notes>
-		<cve>CVE-2024-38809</cve>
-	</suppress>
-
-	<suppress>
-		<notes>
-		</notes>
-		<cve>CVE-2024-38816</cve>
-	</suppress>
 	
 	<suppress>
 		<notes>
+		This vulnerablity is affect to JDK 17.0.11 and we are using JDK 17.13. so no impact to our application.		
 		</notes>
-		<cve>CVE-2023-7272</cve>
+		<cve>CVE-2024-21138</cve>
 	</suppress>
-	<suppress>
-		<notes>
-		</notes>
-		<cve>CVE-2024-45772</cve>
-	</suppress>
-	<suppress>
-		<notes>
-		</notes>
-		<cve>CVE-2024-7254</cve>
-	</suppress>
+
 
 
 </suppressions>

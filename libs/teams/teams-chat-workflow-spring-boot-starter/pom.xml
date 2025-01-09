@@ -143,6 +143,18 @@
 	        <artifactId>guava</artifactId>
 	        <version>${guava.version}</version>
 		</dependency>
+		
+		<dependency>
+			<groupId>io.netty</groupId>
+			<artifactId>netty-codec-http</artifactId>
+			<version>${netty-codec.version}</version>
+		</dependency>
+
+		<dependency>
+			<groupId>io.netty</groupId>
+			<artifactId>netty-handler</artifactId>
+			<version>${netty-handler.version}</version>
+		</dependency>
 
 		<!-- for testing -->
 		<dependency>
