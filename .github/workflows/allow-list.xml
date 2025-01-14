@@ -58,8 +58,65 @@
 		</notes>
 		<cve>CVE-2024-21138</cve>
 	</suppress>
-
-
-
+	<suppress>
+		<notes>
+         Not using Bouncy Castle crafted
+        </notes>
+		<cve>CVE-2024-30172</cve>
+		<cve>CVE-2024-30171</cve>
+		<cve>CVE-2024-29857</cve>
+		<cve>CVE-2024-34447</cve>
+	</suppress>
+	<suppress>
+		<notes>
+			we don't have write access to log config file.
+		</notes>
+		<cve>CVE-2024-12798</cve>
+	</suppress>
+	<suppress>
+		<notes>
+			as we have update msal4j, we don't need to update this. 
+		</notes>
+		<cve>CVE-2024-35255</cve>
+	</suppress>
+	<suppress>
+		<notes>
+			No impact, we are using java 17
+		</notes>
+		<cve>CVE-2010-0538</cve>
+	</suppress>
+	<suppress>
+		<notes>
+			No impact, not using for JSON documents parser
+		</notes>
+		<cve>CVE-2023-7272</cve>
+	</suppress>
+	<suppress>
+		<notes>
+			No impact, we are not using Protobuf
+		</notes>
+		<cve>CVE-2024-7254</cve>
+	</suppress>	
+	<suppress>
+		<notes>
+			Doesn't have fixed, we are using latest version jar
+		</notes>
+		<cve>CVE-2021-3869</cve>
+		<cve>CVE-2022-0198</cve>
+	</suppress>	
+	<suppress>
+		<notes>
+			No impact, we are using java 17
+		</notes>
+		<cve>CVE-2017-10355</cve>
+	</suppress>
+	<suppress>
+		<notes>
+			We will take this on next release
+		</notes>
+		<cve>CVE-2024-45772</cve>
+	</suppress>	
+	
+	
 </suppressions>
 
