@@ -263,3 +263,7 @@ Major release of chat workflow.  Most interfaces for this changed.  See migratio
  - #409 Return conversation IDs in Teams
  - #416 Single Method Invoke on Multiple Chat Button
  - #419 Teams Upload Attachments
+
+# Jan 22 2025
+ - Migrate to 3.4.0
+ - Vulnerability Fixes
