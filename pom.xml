@@ -64,7 +64,7 @@
 		<symphony-bdk.version>3.0.0</symphony-bdk.version>
 		<azure-core-http-netty.version>1.16.4</azure-core-http-netty.version>
 		<azure-identity.version>1.18.0</azure-identity.version>	
-		<corenlp.version>4.5.7</corenlp.version>
+		<corenlp.version>4.5.10</corenlp.version>
 		<protonpack.version>1.16</protonpack.version>
 		<httpclient.version>4.5.13</httpclient.version>
 		<icu4j.version>77.1</icu4j.version>
