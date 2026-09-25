@@ -61,7 +61,7 @@
 		<guava.version>32.1.0-jre</guava.version>
 		<jsoup.version>1.23.2</jsoup.version>
 		<graalvm.version>23.0.3</graalvm.version>
-		<symphony-bdk.version>3.0.0</symphony-bdk.version>
+		<symphony-bdk.version>4.1.0</symphony-bdk.version>
 		<azure-core-http-netty.version>1.16.7</azure-core-http-netty.version>
 		<azure-identity.version>1.18.0</azure-identity.version>	
 		<corenlp.version>4.5.10</corenlp.version>
